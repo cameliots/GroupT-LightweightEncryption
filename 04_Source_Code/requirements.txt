@@ -1,0 +1,9 @@
+# No third-party dependencies.
+#
+# The implementation uses only the Python standard library (hashlib, csv, json,
+# statistics, time, tracemalloc, platform). This is deliberate: it keeps the
+# experiment reproducible on any machine with Python 3.9+, including constrained
+# boards, without depending on the availability or version of a native
+# cryptography library.
+#
+# Requires: Python >= 3.9
