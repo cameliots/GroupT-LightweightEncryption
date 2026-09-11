@@ -1,0 +1,57 @@
+{
+  "environment": {
+    "timestamp_utc": "2026-09-11T08:47:15+00:00",
+    "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+    "system": "Linux",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "python_version": "3.11.15",
+    "python_implementation": "CPython",
+    "timer_resolution_ns": 1.0
+  },
+  "parameters": {
+    "trials_per_configuration": 10,
+    "warmup_iterations": 3,
+    "data_sizes": {
+      "1KB": 1024,
+      "10KB": 10240
+    },
+    "algorithms": [
+      {
+        "name": "AES-128",
+        "category": "Conventional",
+        "mode": "CTR",
+        "key_bits": 128,
+        "nonce_bits": 64,
+        "block_bits": 128
+      },
+      {
+        "name": "PRESENT-80",
+        "category": "Lightweight",
+        "mode": "CTR",
+        "key_bits": 80,
+        "nonce_bits": 32,
+        "block_bits": 64
+      },
+      {
+        "name": "SPECK-64/128",
+        "category": "Lightweight",
+        "mode": "CTR",
+        "key_bits": 128,
+        "nonce_bits": 32,
+        "block_bits": 64
+      },
+      {
+        "name": "ASCON-128",
+        "category": "Lightweight",
+        "mode": "AEAD",
+        "key_bits": 128,
+        "nonce_bits": 128,
+        "block_bits": 64
+      }
+    ],
+    "baseline": "AES-128",
+    "total_rows": 80,
+    "invalid_trials": 0
+  }
+}

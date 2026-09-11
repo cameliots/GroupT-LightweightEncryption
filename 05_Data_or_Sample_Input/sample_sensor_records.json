@@ -1,0 +1,162 @@
+[
+  {
+    "device_id": "iot-node-018",
+    "sensor": "co2",
+    "value": 62.1,
+    "unit": "ppm",
+    "sequence": 0,
+    "timestamp_offset_s": 0
+  },
+  {
+    "device_id": "iot-node-003",
+    "sensor": "motion",
+    "value": 213.74,
+    "unit": "bool",
+    "sequence": 1,
+    "timestamp_offset_s": 5
+  },
+  {
+    "device_id": "iot-node-027",
+    "sensor": "temperature",
+    "value": 3.05,
+    "unit": "C",
+    "sequence": 2,
+    "timestamp_offset_s": 10
+  },
+  {
+    "device_id": "iot-node-023",
+    "sensor": "temperature",
+    "value": 196.23,
+    "unit": "C",
+    "sequence": 3,
+    "timestamp_offset_s": 15
+  },
+  {
+    "device_id": "iot-node-029",
+    "sensor": "pressure",
+    "value": 236.67,
+    "unit": "hPa",
+    "sequence": 4,
+    "timestamp_offset_s": 20
+  },
+  {
+    "device_id": "iot-node-058",
+    "sensor": "motion",
+    "value": 84.7,
+    "unit": "bool",
+    "sequence": 5,
+    "timestamp_offset_s": 25
+  },
+  {
+    "device_id": "iot-node-003",
+    "sensor": "temperature",
+    "value": 202.14,
+    "unit": "C",
+    "sequence": 6,
+    "timestamp_offset_s": 30
+  },
+  {
+    "device_id": "iot-node-056",
+    "sensor": "temperature",
+    "value": 87.84,
+    "unit": "C",
+    "sequence": 7,
+    "timestamp_offset_s": 35
+  },
+  {
+    "device_id": "iot-node-043",
+    "sensor": "temperature",
+    "value": 98.68,
+    "unit": "C",
+    "sequence": 8,
+    "timestamp_offset_s": 40
+  },
+  {
+    "device_id": "iot-node-027",
+    "sensor": "temperature",
+    "value": 158.77,
+    "unit": "C",
+    "sequence": 9,
+    "timestamp_offset_s": 45
+  },
+  {
+    "device_id": "iot-node-025",
+    "sensor": "light",
+    "value": 122.42,
+    "unit": "lux",
+    "sequence": 10,
+    "timestamp_offset_s": 50
+  },
+  {
+    "device_id": "iot-node-048",
+    "sensor": "light",
+    "value": 70.8,
+    "unit": "lux",
+    "sequence": 11,
+    "timestamp_offset_s": 55
+  },
+  {
+    "device_id": "iot-node-061",
+    "sensor": "pressure",
+    "value": 117.9,
+    "unit": "hPa",
+    "sequence": 12,
+    "timestamp_offset_s": 60
+  },
+  {
+    "device_id": "iot-node-004",
+    "sensor": "light",
+    "value": 201.41,
+    "unit": "lux",
+    "sequence": 13,
+    "timestamp_offset_s": 65
+  },
+  {
+    "device_id": "iot-node-008",
+    "sensor": "temperature",
+    "value": 13.97,
+    "unit": "C",
+    "sequence": 14,
+    "timestamp_offset_s": 70
+  },
+  {
+    "device_id": "iot-node-031",
+    "sensor": "motion",
+    "value": 198.66,
+    "unit": "bool",
+    "sequence": 15,
+    "timestamp_offset_s": 75
+  },
+  {
+    "device_id": "iot-node-036",
+    "sensor": "humidity",
+    "value": 157.14,
+    "unit": "%",
+    "sequence": 16,
+    "timestamp_offset_s": 80
+  },
+  {
+    "device_id": "iot-node-031",
+    "sensor": "motion",
+    "value": 180.39,
+    "unit": "bool",
+    "sequence": 17,
+    "timestamp_offset_s": 85
+  },
+  {
+    "device_id": "iot-node-019",
+    "sensor": "temperature",
+    "value": 115.83,
+    "unit": "C",
+    "sequence": 18,
+    "timestamp_offset_s": 90
+  },
+  {
+    "device_id": "iot-node-001",
+    "sensor": "pressure",
+    "value": 26.84,
+    "unit": "hPa",
+    "sequence": 19,
+    "timestamp_offset_s": 95
+  }
+]
